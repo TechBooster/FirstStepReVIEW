@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="130" height="124"><defs><style type="text/css" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style></defs><polygon points="9 17 1 13 1 21"/><polygon points="17 17 9 13 9 21"/><line x1="17" y1="17" x2="19" y2="17" class="line"/><rect x="51" y="3" width="24" height="32" rx="10"/><rect x="49" y="1" width="24" height="32" class="terminal" rx="10"/><text class="terminal" x="59" y="21"/><line x1="39" y1="17" x2="49" y2="17" class="line"/><line x1="73" y1="17" x2="83" y2="17" class="line"/><line x1="83" y1="17" x2="91" y2="17" class="line"/><line x1="19" y1="17" x2="39" y2="17" class="line"/><line x1="91" y1="17" x2="111" y2="17" class="line"/><path d="M19 17 Q29 17 29 27" class="line"/><path d="M101 27 Q101 17 111 17" class="line"/><line x1="29" y1="27" x2="29" y2="51" class="line"/><line x1="101" y1="51" x2="101" y2="27" class="line"/><path d="M29 51 Q29 61 39 61" class="line"/><path d="M91 61 Q101 61 101 51" class="line"/><rect x="51" y="47" width="30" height="32" rx="10"/><rect x="49" y="45" width="30" height="32" class="terminal" rx="10"/><text class="terminal" x="59" y="65">  </text><line x1="39" y1="61" x2="49" y2="61" class="line"/><line x1="79" y1="61" x2="89" y2="61" class="line"/><line x1="89" y1="61" x2="91" y2="61" class="line"/><line x1="29" y1="51" x2="29" y2="71" class="line"/><line x1="101" y1="71" x2="101" y2="51" class="line"/><line x1="29" y1="71" x2="29" y2="95" class="line"/><line x1="101" y1="95" x2="101" y2="71" class="line"/><path d="M29 95 Q29 105 39 105" class="line"/><path d="M91 105 Q101 105 101 95" class="line"/><rect x="51" y="91" width="32" height="32" rx="10"/><rect x="49" y="89" width="32" height="32" class="terminal" rx="10"/><text class="terminal" x="59" y="109">\t</text><line x1="39" y1="105" x2="49" y2="105" class="line"/><line x1="81" y1="105" x2="91" y2="105" class="line"/><line x1="114" y1="17" x2="111" y2="17" class="line"/><polygon points="121 17 129 13 129 21"/><polygon points="121 17 113 13 113 21"/></svg>

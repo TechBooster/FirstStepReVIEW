@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="118" height="36"><defs><style type="text/css" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style></defs><polygon points="9 17 1 13 1 21"/><polygon points="17 17 9 13 9 21"/><line x1="17" y1="17" x2="19" y2="17" class="line"/><polygon points="31 19 38 3 84 3 91 19 84 35 38 35"/><polygon points="29 17 36 1 82 1 89 17 82 33 36 33" class="regexp"/><text class="regexp" x="44" y="21">[0-9]</text><line x1="19" y1="17" x2="29" y2="17" class="line"/><line x1="89" y1="17" x2="99" y2="17" class="line"/><line x1="102" y1="17" x2="99" y2="17" class="line"/><polygon points="109 17 117 13 117 21"/><polygon points="109 17 101 13 101 21"/></svg>

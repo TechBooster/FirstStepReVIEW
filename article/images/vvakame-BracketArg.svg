@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="314" height="68"><defs><style type="text/css" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style></defs><polygon points="9 33 1 29 1 37"/><polygon points="17 33 9 29 9 37"/><line x1="17" y1="33" x2="19" y2="33" class="line"/><rect x="31" y="19" width="26" height="32" rx="10"/><rect x="29" y="17" width="26" height="32" class="terminal" rx="10"/><text class="terminal" x="39" y="37">[</text><line x1="19" y1="33" x2="29" y2="33" class="line"/><line x1="55" y1="33" x2="65" y2="33" class="line"/><polygon points="117 35 124 19 194 19 201 35 194 51 124 51"/><polygon points="115 33 122 17 192 17 199 33 192 49 122 49" class="regexp"/><text class="regexp" x="130" y="37">[^\r\n\]]</text><line x1="105" y1="33" x2="115" y2="33" class="line"/><line x1="199" y1="33" x2="209" y2="33" class="line"/><path d="M85 33 L105 33 M104 33 Q95 33 95 23 L95 11 Q95 1 105 1" class="line"/><path d="M209 33 L229 33 M209 33 Q219 33 219 23 L219 11 Q219 1 209 1" class="line"/><line x1="105" y1="1" x2="115" y2="1" class="line"/><line x1="115" y1="1" x2="209" y2="1" class="line"/><line x1="65" y1="33" x2="85" y2="33" class="line"/><line x1="229" y1="33" x2="249" y2="33" class="line"/><path d="M65 33 Q75 33 75 43" class="line"/><path d="M239 43 Q239 33 249 33" class="line"/><line x1="75" y1="43" x2="75" y2="57" class="line"/><line x1="239" y1="57" x2="239" y2="43" class="line"/><path d="M75 57 Q75 67 85 67" class="line"/><path d="M229 67 Q239 67 239 57" class="line"/><line x1="85" y1="67" x2="95" y2="67" class="line"/><line x1="95" y1="67" x2="229" y2="67" class="line"/><rect x="261" y="19" width="26" height="32" rx="10"/><rect x="259" y="17" width="26" height="32" class="terminal" rx="10"/><text class="terminal" x="269" y="37">]</text><line x1="249" y1="33" x2="259" y2="33" class="line"/><line x1="285" y1="33" x2="295" y2="33" class="line"/><line x1="298" y1="33" x2="295" y2="33" class="line"/><polygon points="305 33 313 29 313 37"/><polygon points="305 33 297 29 297 37"/></svg>

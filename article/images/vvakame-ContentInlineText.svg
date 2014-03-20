@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="170" height="52"><defs><style type="text/css" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style></defs><polygon points="9 33 1 29 1 37"/><polygon points="17 33 9 29 9 37"/><line x1="17" y1="33" x2="19" y2="33" class="line"/><polygon points="51 35 58 19 116 19 123 35 116 51 58 51"/><polygon points="49 33 56 17 114 17 121 33 114 49 56 49" class="regexp"/><text class="regexp" x="64" y="37">[^\r\n]</text><line x1="39" y1="33" x2="49" y2="33" class="line"/><line x1="121" y1="33" x2="131" y2="33" class="line"/><path d="M19 33 L39 33 M38 33 Q29 33 29 23 L29 11 Q29 1 39 1" class="line"/><path d="M131 33 L151 33 M131 33 Q141 33 141 23 L141 11 Q141 1 131 1" class="line"/><line x1="39" y1="1" x2="49" y2="1" class="line"/><line x1="49" y1="1" x2="131" y2="1" class="line"/><line x1="154" y1="33" x2="151" y2="33" class="line"/><polygon points="161 33 169 29 169 37"/><polygon points="161 33 153 29 153 37"/></svg>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="774"
+   height="68"
+   id="svg9169"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="vvakame-DlistElement.svg">
+  <metadata
+     id="metadata9323">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="865"
+     inkscape:window-height="615"
+     id="namedview9321"
+     showgrid="false"
+     inkscape:zoom="0.79"
+     inkscape:cx="387"
+     inkscape:cy="34"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg9169" />
+  <defs
+     id="defs9171">
+    <style
+       type="text/css"
+       xml:space="preserve"
+       id="style9173">
+    @namespace &quot;http://www.w3.org/2000/svg&quot;;
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style>  </defs>
+  <polygon
+     points="9 33 1 29 1 37"
+     id="polygon9175" />
+  <polygon
+     points="17 33 9 29 9 37"
+     id="polygon9177" />
+  <line
+     x1="17"
+     y1="33"
+     x2="19"
+     y2="33"
+     class="line"
+     id="line9179" />
+  <rect
+     x="71"
+     y="19"
+     width="24"
+     height="32"
+     rx="10"
+     id="rect9181" />
+  <rect
+     x="69"
+     y="17"
+     width="24"
+     height="32"
+     class="terminal"
+     rx="10"
+     id="rect9183" />
+  <text
+     class="terminal"
+     x="79"
+     y="37"
+     id="text9185" />
+  <line
+     x1="59"
+     y1="33"
+     x2="69"
+     y2="33"
+     class="line"
+     id="line9187" />
+  <line
+     x1="93"
+     y1="33"
+     x2="103"
+     y2="33"
+     class="line"
+     id="line9189" />
+  <path
+     d="M39 33 L59 33 M58 33 Q49 33 49 23 L49 11 Q49 1 59 1"
+     class="line"
+     id="path9191" />
+  <path
+     d="M103 33 L123 33 M103 33 Q113 33 113 23 L113 11 Q113 1 103 1"
+     class="line"
+     id="path9193" />
+  <line
+     x1="59"
+     y1="1"
+     x2="69"
+     y2="1"
+     class="line"
+     id="line9195" />
+  <line
+     x1="69"
+     y1="1"
+     x2="103"
+     y2="1"
+     class="line"
+     id="line9197" />
+  <line
+     x1="19"
+     y1="33"
+     x2="39"
+     y2="33"
+     class="line"
+     id="line9199" />
+  <line
+     x1="123"
+     y1="33"
+     x2="143"
+     y2="33"
+     class="line"
+     id="line9201" />
+  <path
+     d="M19 33 Q29 33 29 43"
+     class="line"
+     id="path9203" />
+  <path
+     d="M133 43 Q133 33 143 33"
+     class="line"
+     id="path9205" />
+  <line
+     x1="29"
+     y1="43"
+     x2="29"
+     y2="57"
+     class="line"
+     id="line9207" />
+  <line
+     x1="133"
+     y1="57"
+     x2="133"
+     y2="43"
+     class="line"
+     id="line9209" />
+  <path
+     d="M29 57 Q29 67 39 67"
+     class="line"
+     id="path9211" />
+  <path
+     d="M123 67 Q133 67 133 57"
+     class="line"
+     id="path9213" />
+  <line
+     x1="39"
+     y1="67"
+     x2="49"
+     y2="67"
+     class="line"
+     id="line9215" />
+  <line
+     x1="49"
+     y1="67"
+     x2="123"
+     y2="67"
+     class="line"
+     id="line9217" />
+  <rect
+     x="155"
+     y="19"
+     width="24"
+     height="32"
+     rx="10"
+     id="rect9219" />
+  <rect
+     x="153"
+     y="17"
+     width="24"
+     height="32"
+     class="terminal"
+     rx="10"
+     id="rect9221" />
+  <text
+     class="terminal"
+     x="163"
+     y="37"
+     id="text9223">:</text>
+  <line
+     x1="143"
+     y1="33"
+     x2="153"
+     y2="33"
+     class="line"
+     id="line9225" />
+  <line
+     x1="177"
+     y1="33"
+     x2="187"
+     y2="33"
+     class="line"
+     id="line9227" />
+  <rect
+     x="199"
+     y="19"
+     width="24"
+     height="32"
+     rx="10"
+     id="rect9229" />
+  <rect
+     x="197"
+     y="17"
+     width="24"
+     height="32"
+     class="terminal"
+     rx="10"
+     id="rect9231" />
+  <text
+     class="terminal"
+     x="207"
+     y="37"
+     id="text9233" />
+  <line
+     x1="187"
+     y1="33"
+     x2="197"
+     y2="33"
+     class="line"
+     id="line9235" />
+  <line
+     x1="221"
+     y1="33"
+     x2="231"
+     y2="33"
+     class="line"
+     id="line9237" />
+  <a
+     xlink:href="#Space"
+     xlink:title="Space"
+     shape="rect"
+     id="a9239">
+    <rect
+       x="283"
+       y="19"
+       width="58"
+       height="32"
+       id="rect9241" />
+    <rect
+       x="281"
+       y="17"
+       width="58"
+       height="32"
+       class="nonterminal"
+       id="rect9243" />
+    <text
+       class="nonterminal"
+       x="291"
+       y="37"
+       id="text9245">Space</text>
+  </a>
+  <line
+     x1="271"
+     y1="33"
+     x2="281"
+     y2="33"
+     class="line"
+     id="line9247" />
+  <line
+     x1="339"
+     y1="33"
+     x2="349"
+     y2="33"
+     class="line"
+     id="line9249" />
+  <path
+     d="M251 33 L271 33 M270 33 Q261 33 261 23 L261 11 Q261 1 271 1"
+     class="line"
+     id="path9251" />
+  <path
+     d="M349 33 L369 33 M349 33 Q359 33 359 23 L359 11 Q359 1 349 1"
+     class="line"
+     id="path9253" />
+  <line
+     x1="271"
+     y1="1"
+     x2="281"
+     y2="1"
+     class="line"
+     id="line9255" />
+  <line
+     x1="281"
+     y1="1"
+     x2="349"
+     y2="1"
+     class="line"
+     id="line9257" />
+  <line
+     x1="231"
+     y1="33"
+     x2="251"
+     y2="33"
+     class="line"
+     id="line9259" />
+  <line
+     x1="369"
+     y1="33"
+     x2="389"
+     y2="33"
+     class="line"
+     id="line9261" />
+  <path
+     d="M231 33 Q241 33 241 43"
+     class="line"
+     id="path9263" />
+  <path
+     d="M379 43 Q379 33 389 33"
+     class="line"
+     id="path9265" />
+  <line
+     x1="241"
+     y1="43"
+     x2="241"
+     y2="57"
+     class="line"
+     id="line9267" />
+  <line
+     x1="379"
+     y1="57"
+     x2="379"
+     y2="43"
+     class="line"
+     id="line9269" />
+  <path
+     d="M241 57 Q241 67 251 67"
+     class="line"
+     id="path9271" />
+  <path
+     d="M369 67 Q379 67 379 57"
+     class="line"
+     id="path9273" />
+  <line
+     x1="251"
+     y1="67"
+     x2="261"
+     y2="67"
+     class="line"
+     id="line9275" />
+  <line
+     x1="261"
+     y1="67"
+     x2="369"
+     y2="67"
+     class="line"
+     id="line9277" />
+  <rect
+     style="fill:#262626;stroke:#262626"
+     id="rect9281"
+     height="32"
+     width="130"
+     y="19"
+     x="401" />
+  <rect
+     style="fill:#ffffff;stroke:#262626"
+     id="rect9283"
+     class="nonterminal"
+     height="32"
+     width="130"
+     y="17"
+     x="399" />
+  <text
+     style="font-size:12px;font-weight:bold;fill:#0d0d0d;font-family:'Verdana, Sans-serif'"
+     id="text9285"
+     y="37"
+     x="405"
+     class="nonterminal">SinglelineContent</text>
+  <line
+     x1="389"
+     y1="33"
+     x2="399"
+     y2="33"
+     class="line"
+     id="line9287" />
+  <line
+     x1="529"
+     y1="33"
+     x2="539"
+     y2="33"
+     class="line"
+     id="line9289" />
+  <rect
+     style="fill:#262626;stroke:#262626"
+     id="rect9293"
+     height="32"
+     width="148"
+     y="19"
+     x="551" />
+  <rect
+     style="fill:#ffffff;stroke:#262626"
+     id="rect9295"
+     class="nonterminal"
+     height="32"
+     width="148"
+     y="17"
+     x="549" />
+  <text
+     style="font-size:12px;font-weight:bold;fill:#0d0d0d;font-family:'Verdana, Sans-serif'"
+     id="text9297"
+     y="37"
+     x="553"
+     class="nonterminal">DlistElementContent</text>
+  <line
+     x1="539"
+     y1="33"
+     x2="549"
+     y2="33"
+     class="line"
+     id="line9299" />
+  <line
+     x1="697"
+     y1="33"
+     x2="707"
+     y2="33"
+     class="line"
+     id="line9301" />
+  <a
+     xlink:href="#_"
+     xlink:title="_"
+     shape="rect"
+     id="a9303">
+    <rect
+       x="719"
+       y="19"
+       width="28"
+       height="32"
+       id="rect9305" />
+    <rect
+       x="717"
+       y="17"
+       width="28"
+       height="32"
+       class="nonterminal"
+       id="rect9307" />
+    <text
+       class="nonterminal"
+       x="727"
+       y="37"
+       id="text9309">_</text>
+  </a>
+  <line
+     x1="707"
+     y1="33"
+     x2="717"
+     y2="33"
+     class="line"
+     id="line9311" />
+  <line
+     x1="745"
+     y1="33"
+     x2="755"
+     y2="33"
+     class="line"
+     id="line9313" />
+  <line
+     x1="758"
+     y1="33"
+     x2="755"
+     y2="33"
+     class="line"
+     id="line9315" />
+  <polygon
+     points="765 33 773 29 773 37"
+     id="polygon9317" />
+  <polygon
+     points="765 33 757 29 757 37"
+     id="polygon9319" />
+</svg>

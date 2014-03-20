@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="888"
+   height="150"
+   id="svg3358"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="vvakame-BlockElement.svg">
+  <metadata
+     id="metadata3624">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1630"
+     inkscape:window-height="974"
+     id="namedview3622"
+     showgrid="false"
+     inkscape:zoom="1.4256757"
+     inkscape:cx="444"
+     inkscape:cy="75"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3358" />
+  <defs
+     id="defs3360">
+    <style
+       type="text/css"
+       xml:space="preserve"
+       id="style3362">
+    @namespace &quot;http://www.w3.org/2000/svg&quot;;
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style>  </defs>
+  <polygon
+     points="9 33 1 29 1 37"
+     id="polygon3364" />
+  <polygon
+     points="17 33 9 29 9 37"
+     id="polygon3366" />
+  <line
+     x1="17"
+     y1="33"
+     x2="19"
+     y2="33"
+     class="line"
+     id="line3368" />
+  <rect
+     x="51"
+     y="19"
+     width="36"
+     height="32"
+     rx="10"
+     id="rect3370" />
+  <rect
+     x="49"
+     y="17"
+     width="36"
+     height="32"
+     class="terminal"
+     rx="10"
+     id="rect3372" />
+  <text
+     class="terminal"
+     x="59"
+     y="37"
+     id="text3374">//</text>
+  <line
+     x1="39"
+     y1="33"
+     x2="49"
+     y2="33"
+     class="line"
+     id="line3376" />
+  <line
+     x1="85"
+     y1="33"
+     x2="95"
+     y2="33"
+     class="line"
+     id="line3378" />
+  <a
+     xlink:href="#AZ"
+     xlink:title="AZ"
+     shape="rect"
+     id="a3380">
+    <rect
+       x="127"
+       y="19"
+       width="36"
+       height="32"
+       id="rect3382" />
+    <rect
+       x="125"
+       y="17"
+       width="36"
+       height="32"
+       class="nonterminal"
+       id="rect3384" />
+    <text
+       class="nonterminal"
+       x="135"
+       y="37"
+       id="text3386">AZ</text>
+  </a>
+  <line
+     x1="115"
+     y1="33"
+     x2="125"
+     y2="33"
+     class="line"
+     id="line3388" />
+  <line
+     x1="161"
+     y1="33"
+     x2="171"
+     y2="33"
+     class="line"
+     id="line3390" />
+  <path
+     d="M95 33 L115 33 M114 33 Q105 33 105 23 L105 11 Q105 1 115 1"
+     class="line"
+     id="path3392" />
+  <path
+     d="M171 33 L191 33 M171 33 Q181 33 181 23 L181 11 Q181 1 171 1"
+     class="line"
+     id="path3394" />
+  <line
+     x1="115"
+     y1="1"
+     x2="125"
+     y2="1"
+     class="line"
+     id="line3396" />
+  <line
+     x1="125"
+     y1="1"
+     x2="171"
+     y2="1"
+     class="line"
+     id="line3398" />
+  <rect
+     style="fill:#262626;stroke:#262626"
+     id="rect3402"
+     height="32"
+     width="88"
+     y="19"
+     x="243" />
+  <rect
+     style="fill:#ffffff;stroke:#262626"
+     id="rect3404"
+     class="nonterminal"
+     height="32"
+     width="88"
+     y="17"
+     x="241" />
+  <text
+     style="font-size:12px;font-weight:bold;fill:#0d0d0d;font-family:'Verdana, Sans-serif'"
+     id="text3406"
+     y="37"
+     x="247"
+     class="nonterminal">BracketArg</text>
+  <line
+     x1="231"
+     y1="33"
+     x2="241"
+     y2="33"
+     class="line"
+     id="line3408" />
+  <line
+     x1="329"
+     y1="33"
+     x2="339"
+     y2="33"
+     class="line"
+     id="line3410" />
+  <path
+     d="M211 33 L231 33 M230 33 Q221 33 221 23 L221 11 Q221 1 231 1"
+     class="line"
+     id="path3412" />
+  <path
+     d="M339 33 L359 33 M339 33 Q349 33 349 23 L349 11 Q349 1 339 1"
+     class="line"
+     id="path3414" />
+  <line
+     x1="231"
+     y1="1"
+     x2="241"
+     y2="1"
+     class="line"
+     id="line3416" />
+  <line
+     x1="241"
+     y1="1"
+     x2="339"
+     y2="1"
+     class="line"
+     id="line3418" />
+  <line
+     x1="191"
+     y1="33"
+     x2="211"
+     y2="33"
+     class="line"
+     id="line3420" />
+  <line
+     x1="359"
+     y1="33"
+     x2="379"
+     y2="33"
+     class="line"
+     id="line3422" />
+  <path
+     d="M191 33 Q201 33 201 43"
+     class="line"
+     id="path3424" />
+  <path
+     d="M369 43 Q369 33 379 33"
+     class="line"
+     id="path3426" />
+  <line
+     x1="201"
+     y1="43"
+     x2="201"
+     y2="57"
+     class="line"
+     id="line3428" />
+  <line
+     x1="369"
+     y1="57"
+     x2="369"
+     y2="43"
+     class="line"
+     id="line3430" />
+  <path
+     d="M201 57 Q201 67 211 67"
+     class="line"
+     id="path3432" />
+  <path
+     d="M359 67 Q369 67 369 57"
+     class="line"
+     id="path3434" />
+  <line
+     x1="211"
+     y1="67"
+     x2="221"
+     y2="67"
+     class="line"
+     id="line3436" />
+  <line
+     x1="221"
+     y1="67"
+     x2="359"
+     y2="67"
+     class="line"
+     id="line3438" />
+  <rect
+     x="391"
+     y="19"
+     width="28"
+     height="32"
+     rx="10"
+     id="rect3440" />
+  <rect
+     x="389"
+     y="17"
+     width="28"
+     height="32"
+     class="terminal"
+     rx="10"
+     id="rect3442" />
+  <text
+     class="terminal"
+     x="399"
+     y="37"
+     id="text3444">{</text>
+  <line
+     x1="379"
+     y1="33"
+     x2="389"
+     y2="33"
+     class="line"
+     id="line3446" />
+  <line
+     x1="417"
+     y1="33"
+     x2="427"
+     y2="33"
+     class="line"
+     id="line3448" />
+  <rect
+     style="fill:#262626;stroke:#262626"
+     id="rect3452"
+     height="32"
+     width="70"
+     y="19"
+     x="439" />
+  <rect
+     style="fill:#ffffff;stroke:#262626"
+     id="rect3454"
+     class="nonterminal"
+     height="32"
+     width="70"
+     y="17"
+     x="437" />
+  <text
+     style="font-size:12px;font-weight:bold;fill:#0d0d0d;font-family:'Verdana, Sans-serif'"
+     id="text3456"
+     y="37"
+     x="445"
+     class="nonterminal">Newline</text>
+  <line
+     x1="427"
+     y1="33"
+     x2="437"
+     y2="33"
+     class="line"
+     id="line3458" />
+  <line
+     x1="507"
+     y1="33"
+     x2="517"
+     y2="33"
+     class="line"
+     id="line3460" />
+  <rect
+     style="fill:#262626;stroke:#262626"
+     id="rect3464"
+     height="32"
+     width="160"
+     y="19"
+     x="549" />
+  <rect
+     style="fill:#ffffff;stroke:#262626"
+     id="rect3466"
+     class="nonterminal"
+     height="32"
+     width="160"
+     y="17"
+     x="547" />
+  <text
+     style="font-size:12px;font-weight:bold;fill:#0d0d0d;font-family:'Verdana, Sans-serif'"
+     id="text3468"
+     y="37"
+     x="551"
+     class="nonterminal">BlockElementContents</text>
+  <line
+     x1="537"
+     y1="33"
+     x2="547"
+     y2="33"
+     class="line"
+     id="line3470" />
+  <line
+     x1="707"
+     y1="33"
+     x2="717"
+     y2="33"
+     class="line"
+     id="line3472" />
+  <line
+     x1="517"
+     y1="33"
+     x2="537"
+     y2="33"
+     class="line"
+     id="line3474" />
+  <line
+     x1="717"
+     y1="33"
+     x2="737"
+     y2="33"
+     class="line"
+     id="line3476" />
+  <path
+     d="M517 33 Q527 33 527 43"
+     class="line"
+     id="path3478" />
+  <path
+     d="M727 43 Q727 33 737 33"
+     class="line"
+     id="path3480" />
+  <line
+     x1="527"
+     y1="43"
+     x2="527"
+     y2="57"
+     class="line"
+     id="line3482" />
+  <line
+     x1="727"
+     y1="57"
+     x2="727"
+     y2="43"
+     class="line"
+     id="line3484" />
+  <path
+     d="M527 57 Q527 67 537 67"
+     class="line"
+     id="path3486" />
+  <path
+     d="M717 67 Q727 67 727 57"
+     class="line"
+     id="path3488" />
+  <line
+     x1="537"
+     y1="67"
+     x2="547"
+     y2="67"
+     class="line"
+     id="line3490" />
+  <line
+     x1="547"
+     y1="67"
+     x2="717"
+     y2="67"
+     class="line"
+     id="line3492" />
+  <rect
+     x="749"
+     y="19"
+     width="44"
+     height="32"
+     rx="10"
+     id="rect3494" />
+  <rect
+     x="747"
+     y="17"
+     width="44"
+     height="32"
+     class="terminal"
+     rx="10"
+     id="rect3496" />
+  <text
+     class="terminal"
+     x="757"
+     y="37"
+     id="text3498">//}</text>
+  <line
+     x1="737"
+     y1="33"
+     x2="747"
+     y2="33"
+     class="line"
+     id="line3500" />
+  <line
+     x1="791"
+     y1="33"
+     x2="801"
+     y2="33"
+     class="line"
+     id="line3502" />
+  <a
+     xlink:href="#_"
+     xlink:title="_"
+     shape="rect"
+     id="a3504">
+    <rect
+       x="813"
+       y="19"
+       width="28"
+       height="32"
+       id="rect3506" />
+    <rect
+       x="811"
+       y="17"
+       width="28"
+       height="32"
+       class="nonterminal"
+       id="rect3508" />
+    <text
+       class="nonterminal"
+       x="821"
+       y="37"
+       id="text3510">_</text>
+  </a>
+  <line
+     x1="801"
+     y1="33"
+     x2="811"
+     y2="33"
+     class="line"
+     id="line3512" />
+  <line
+     x1="839"
+     y1="33"
+     x2="849"
+     y2="33"
+     class="line"
+     id="line3514" />
+  <line
+     x1="19"
+     y1="33"
+     x2="39"
+     y2="33"
+     class="line"
+     id="line3516" />
+  <line
+     x1="849"
+     y1="33"
+     x2="869"
+     y2="33"
+     class="line"
+     id="line3518" />
+  <path
+     d="M19 33 Q29 33 29 43"
+     class="line"
+     id="path3520" />
+  <path
+     d="M859 43 Q859 33 869 33"
+     class="line"
+     id="path3522" />
+  <line
+     x1="29"
+     y1="43"
+     x2="29"
+     y2="105"
+     class="line"
+     id="line3524" />
+  <line
+     x1="859"
+     y1="105"
+     x2="859"
+     y2="43"
+     class="line"
+     id="line3526" />
+  <path
+     d="M29 105 Q29 115 39 115"
+     class="line"
+     id="path3528" />
+  <path
+     d="M849 115 Q859 115 859 105"
+     class="line"
+     id="path3530" />
+  <rect
+     x="51"
+     y="101"
+     width="36"
+     height="32"
+     rx="10"
+     id="rect3532" />
+  <rect
+     x="49"
+     y="99"
+     width="36"
+     height="32"
+     class="terminal"
+     rx="10"
+     id="rect3534" />
+  <text
+     class="terminal"
+     x="59"
+     y="119"
+     id="text3536">//</text>
+  <line
+     x1="39"
+     y1="115"
+     x2="49"
+     y2="115"
+     class="line"
+     id="line3538" />
+  <line
+     x1="85"
+     y1="115"
+     x2="95"
+     y2="115"
+     class="line"
+     id="line3540" />
+  <a
+     xlink:href="#AZ"
+     xlink:title="AZ"
+     shape="rect"
+     id="a3542">
+    <rect
+       x="127"
+       y="101"
+       width="36"
+       height="32"
+       id="rect3544" />
+    <rect
+       x="125"
+       y="99"
+       width="36"
+       height="32"
+       class="nonterminal"
+       id="rect3546" />
+    <text
+       class="nonterminal"
+       x="135"
+       y="119"
+       id="text3548">AZ</text>
+  </a>
+  <line
+     x1="115"
+     y1="115"
+     x2="125"
+     y2="115"
+     class="line"
+     id="line3550" />
+  <line
+     x1="161"
+     y1="115"
+     x2="171"
+     y2="115"
+     class="line"
+     id="line3552" />
+  <path
+     d="M95 115 L115 115 M114 115 Q105 115 105 105 L105 93 Q105 83 115 83"
+     class="line"
+     id="path3554" />
+  <path
+     d="M171 115 L191 115 M171 115 Q181 115 181 105 L181 93 Q181 83 171 83"
+     class="line"
+     id="path3556" />
+  <line
+     x1="115"
+     y1="83"
+     x2="125"
+     y2="83"
+     class="line"
+     id="line3558" />
+  <line
+     x1="125"
+     y1="83"
+     x2="171"
+     y2="83"
+     class="line"
+     id="line3560" />
+  <rect
+     style="fill:#262626;stroke:#262626"
+     id="rect3564"
+     height="32"
+     width="88"
+     y="101"
+     x="243" />
+  <rect
+     style="fill:#ffffff;stroke:#262626"
+     id="rect3566"
+     class="nonterminal"
+     height="32"
+     width="88"
+     y="99"
+     x="241" />
+  <text
+     style="font-size:12px;font-weight:bold;fill:#0d0d0d;font-family:'Verdana, Sans-serif'"
+     id="text3568"
+     y="119"
+     x="247"
+     class="nonterminal">BracketArg</text>
+  <line
+     x1="231"
+     y1="115"
+     x2="241"
+     y2="115"
+     class="line"
+     id="line3570" />
+  <line
+     x1="329"
+     y1="115"
+     x2="339"
+     y2="115"
+     class="line"
+     id="line3572" />
+  <path
+     d="M211 115 L231 115 M230 115 Q221 115 221 105 L221 93 Q221 83 231 83"
+     class="line"
+     id="path3574" />
+  <path
+     d="M339 115 L359 115 M339 115 Q349 115 349 105 L349 93 Q349 83 339 83"
+     class="line"
+     id="path3576" />
+  <line
+     x1="231"
+     y1="83"
+     x2="241"
+     y2="83"
+     class="line"
+     id="line3578" />
+  <line
+     x1="241"
+     y1="83"
+     x2="339"
+     y2="83"
+     class="line"
+     id="line3580" />
+  <line
+     x1="191"
+     y1="115"
+     x2="211"
+     y2="115"
+     class="line"
+     id="line3582" />
+  <line
+     x1="359"
+     y1="115"
+     x2="379"
+     y2="115"
+     class="line"
+     id="line3584" />
+  <path
+     d="M191 115 Q201 115 201 125"
+     class="line"
+     id="path3586" />
+  <path
+     d="M369 125 Q369 115 379 115"
+     class="line"
+     id="path3588" />
+  <line
+     x1="201"
+     y1="125"
+     x2="201"
+     y2="139"
+     class="line"
+     id="line3590" />
+  <line
+     x1="369"
+     y1="139"
+     x2="369"
+     y2="125"
+     class="line"
+     id="line3592" />
+  <path
+     d="M201 139 Q201 149 211 149"
+     class="line"
+     id="path3594" />
+  <path
+     d="M359 149 Q369 149 369 139"
+     class="line"
+     id="path3596" />
+  <line
+     x1="211"
+     y1="149"
+     x2="221"
+     y2="149"
+     class="line"
+     id="line3598" />
+  <line
+     x1="221"
+     y1="149"
+     x2="359"
+     y2="149"
+     class="line"
+     id="line3600" />
+  <a
+     xlink:href="#_"
+     xlink:title="_"
+     shape="rect"
+     id="a3602">
+    <rect
+       x="391"
+       y="101"
+       width="28"
+       height="32"
+       id="rect3604" />
+    <rect
+       x="389"
+       y="99"
+       width="28"
+       height="32"
+       class="nonterminal"
+       id="rect3606" />
+    <text
+       class="nonterminal"
+       x="399"
+       y="119"
+       id="text3608">_</text>
+  </a>
+  <line
+     x1="379"
+     y1="115"
+     x2="389"
+     y2="115"
+     class="line"
+     id="line3610" />
+  <line
+     x1="417"
+     y1="115"
+     x2="427"
+     y2="115"
+     class="line"
+     id="line3612" />
+  <line
+     x1="427"
+     y1="115"
+     x2="849"
+     y2="115"
+     class="line"
+     id="line3614" />
+  <line
+     x1="872"
+     y1="33"
+     x2="869"
+     y2="33"
+     class="line"
+     id="line3616" />
+  <polygon
+     points="879 33 887 29 887 37"
+     id="polygon3618" />
+  <polygon
+     points="879 33 871 29 871 37"
+     id="polygon3620" />
+</svg>

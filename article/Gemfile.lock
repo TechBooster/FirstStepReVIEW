@@ -1,0 +1,16 @@
+GIT
+  remote: https://github.com/kmuto/review.git
+  revision: 38b103fe8d9551861e5612c1eebe8ec019ffdf22
+  ref: 38b103fe8d9551861e5612c1eebe8ec019ffdf22
+  specs:
+    review (1.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  review!

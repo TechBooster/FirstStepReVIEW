@@ -1,0 +1,55 @@
+# review-epubmaker向けの設定ファイルの例。
+# yamlファイルをReVIEWファイルのある場所に置き、
+# 「review-epubmaker yamlファイル」を実行すると、<bookname>.epubファイルが
+# 生成されます。
+# このファイルはUTF-8エンコーディングで記述してください。
+
+# ブック名(ファイル名になるもの。ASCII範囲の文字を使用)
+bookname: book
+# 書名
+booktitle: はじめてのReVIEW
+# 著者
+aut: TechBooster
+prt: 日光企画
+prt_url:  http://techbooster.org/
+edt: mhidaka
+dsr: yuya
+date: 2013-12-10
+rights: |
+  (C) 2013 techbooster.org
+description: ReVIEW執筆経験者による執筆ノウハウをまとめました。
+# 以下はオプション
+#prt: 出版社
+# asn: Associated name
+# ant: Bibliographic antecedent
+# clb: 貢献者
+# ill: イラストレータ
+# pht: 撮影者
+# trl: 翻訳者
+# rights: 権利表記
+# description: ブックの説明
+#
+# coverfile: カバーページのbody要素内に挿入する内容を記述したファイル名
+coverfile: _cover.html
+# coverimage: 表紙用画像ファイル
+# coverimage: cover.jpg
+# 固有IDに使用するドメイン
+urnid: http://techbooster.org/book/Beginners-ReVIEW
+# CSSファイル (yamlファイルおよびReVIEWファイルを置いたディレクトリにあること
+stylesheet: main.css
+# LaTeX用のdocumentclassを指定する
+# 目次として抽出するレベル
+toclevel: 2
+# セクション番号を表示するレベル
+secnolevel: 2
+# review-compileに渡すパラメータ
+params: --stylesheet=main.css
+# 目次生成用？
+mytoc: true
+# 奥付生成用
+colophon: true
+texstyle: techbooster-doujin
+texdocumentclass: ["jsbook", "b5j,twoside,openany"]
+pubhistory: |
+  2013年12月31日  初版発行 v1.0.0
+debug: true

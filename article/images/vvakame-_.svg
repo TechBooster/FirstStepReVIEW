@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="212" height="200"><defs><style type="text/css" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style></defs><polygon points="9 33 1 29 1 37"/><polygon points="17 33 9 29 9 37"/><line x1="17" y1="33" x2="19" y2="33" class="line"/><rect x="91" y="19" width="24" height="32" rx="10"/><rect x="89" y="17" width="24" height="32" class="terminal" rx="10"/><text class="terminal" x="99" y="37"/><line x1="79" y1="33" x2="89" y2="33" class="line"/><line x1="113" y1="33" x2="123" y2="33" class="line"/><line x1="123" y1="33" x2="133" y2="33" class="line"/><line x1="59" y1="33" x2="79" y2="33" class="line"/><line x1="133" y1="33" x2="153" y2="33" class="line"/><path d="M59 33 Q69 33 69 43" class="line"/><path d="M143 43 Q143 33 153 33" class="line"/><line x1="69" y1="43" x2="69" y2="67" class="line"/><line x1="143" y1="67" x2="143" y2="43" class="line"/><path d="M69 67 Q69 77 79 77" class="line"/><path d="M133 77 Q143 77 143 67" class="line"/><rect x="91" y="63" width="36" height="32" rx="10"/><rect x="89" y="61" width="36" height="32" class="terminal" rx="10"/><text class="terminal" x="99" y="81">\t</text><line x1="79" y1="77" x2="89" y2="77" class="line"/><line x1="125" y1="77" x2="129" y2="77" class="line"/><line x1="129" y1="77" x2="133" y2="77" class="line"/><line x1="69" y1="67" x2="69" y2="87" class="line"/><line x1="143" y1="87" x2="143" y2="67" class="line"/><line x1="69" y1="87" x2="69" y2="111" class="line"/><line x1="143" y1="111" x2="143" y2="87" class="line"/><path d="M69 111 Q69 121 79 121" class="line"/><path d="M133 121 Q143 121 143 111" class="line"/><rect x="91" y="107" width="36" height="32" rx="10"/><rect x="89" y="105" width="36" height="32" class="terminal" rx="10"/><text class="terminal" x="99" y="125">\r</text><line x1="79" y1="121" x2="89" y2="121" class="line"/><line x1="127" y1="121" x2="127" y2="121" class="line"/><line x1="127" y1="121" x2="133" y2="121" class="line"/><line x1="69" y1="111" x2="69" y2="131" class="line"/><line x1="143" y1="131" x2="143" y2="111" class="line"/><line x1="69" y1="131" x2="69" y2="155" class="line"/><line x1="143" y1="155" x2="143" y2="131" class="line"/><path d="M69 155 Q69 165 79 165" class="line"/><path d="M133 165 Q143 165 143 155" class="line"/><rect x="91" y="151" width="34" height="32" rx="10"/><rect x="89" y="149" width="34" height="32" class="terminal" rx="10"/><text class="terminal" x="99" y="169">\n</text><line x1="79" y1="165" x2="89" y2="165" class="line"/><line x1="123" y1="165" x2="133" y2="165" class="line"/><path d="M39 33 L59 33 M58 33 Q49 33 49 23 L49 11 Q49 1 59 1" class="line"/><path d="M153 33 L173 33 M153 33 Q163 33 163 23 L163 11 Q163 1 153 1" class="line"/><line x1="59" y1="1" x2="69" y2="1" class="line"/><line x1="69" y1="1" x2="153" y2="1" class="line"/><line x1="19" y1="33" x2="39" y2="33" class="line"/><line x1="173" y1="33" x2="193" y2="33" class="line"/><path d="M19 33 Q29 33 29 43" class="line"/><path d="M183 43 Q183 33 193 33" class="line"/><line x1="29" y1="43" x2="29" y2="189" class="line"/><line x1="183" y1="189" x2="183" y2="43" class="line"/><path d="M29 189 Q29 199 39 199" class="line"/><path d="M173 199 Q183 199 183 189" class="line"/><line x1="39" y1="199" x2="49" y2="199" class="line"/><line x1="49" y1="199" x2="173" y2="199" class="line"/><line x1="196" y1="33" x2="193" y2="33" class="line"/><polygon points="203 33 211 29 211 37"/><polygon points="203 33 195 29 195 37"/></svg>

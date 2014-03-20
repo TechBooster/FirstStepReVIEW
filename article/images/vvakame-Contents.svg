@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="396" height="52"><defs><style type="text/css" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #262626;}
+    .bold-line            {stroke: #0A0A0A; shape-rendering: crispEdges; stroke-width: 2; }
+    .thin-line            {stroke: #0F0F0F; shape-rendering: crispEdges}
+    .filled               {fill: #262626; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0A0A0A;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0D0D0D;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #0F0F0F;
+                          }
+    rect, circle, polygon {fill: #262626; stroke: #262626;}
+    rect.terminal         {fill: #FFFFFF; stroke: #262626;}
+    rect.nonterminal      {fill: #FFFFFF; stroke: #262626;}
+    rect.text             {fill: none; stroke: none;}    
+    polygon.regexp        {fill: #FFFFFF; stroke: #262626;}
+  </style></defs><polygon points="9 17 1 13 1 21"/><polygon points="17 17 9 13 9 21"/><line x1="17" y1="17" x2="19" y2="17" class="line"/><a xlink:href="#Content" xlink:title="Content" shape="rect"><rect x="31" y="3" width="70" height="32"/><rect x="29" y="1" width="70" height="32" class="nonterminal"/><text class="nonterminal" x="39" y="21">Content</text></a><line x1="19" y1="17" x2="29" y2="17" class="line"/><line x1="99" y1="17" x2="109" y2="17" class="line"/><a xlink:href="#Contents" xlink:title="Contents" shape="rect"><rect x="141" y="3" width="78" height="32"/><rect x="139" y="1" width="78" height="32" class="nonterminal"/><text class="nonterminal" x="149" y="21">Contents</text></a><line x1="129" y1="17" x2="139" y2="17" class="line"/><line x1="217" y1="17" x2="227" y2="17" class="line"/><line x1="109" y1="17" x2="129" y2="17" class="line"/><line x1="227" y1="17" x2="247" y2="17" class="line"/><path d="M109 17 Q119 17 119 27" class="line"/><path d="M237 27 Q237 17 247 17" class="line"/><line x1="119" y1="27" x2="119" y2="41" class="line"/><line x1="237" y1="41" x2="237" y2="27" class="line"/><path d="M119 41 Q119 51 129 51" class="line"/><path d="M227 51 Q237 51 237 41" class="line"/><line x1="129" y1="51" x2="139" y2="51" class="line"/><line x1="139" y1="51" x2="227" y2="51" class="line"/><a xlink:href="#Newline" xlink:title="Newline" shape="rect"><rect x="279" y="3" width="70" height="32"/><rect x="277" y="1" width="70" height="32" class="nonterminal"/><text class="nonterminal" x="287" y="21">Newline</text></a><line x1="267" y1="17" x2="277" y2="17" class="line"/><line x1="347" y1="17" x2="357" y2="17" class="line"/><line x1="247" y1="17" x2="267" y2="17" class="line"/><line x1="357" y1="17" x2="377" y2="17" class="line"/><path d="M247 17 Q257 17 257 27" class="line"/><path d="M367 27 Q367 17 377 17" class="line"/><line x1="257" y1="27" x2="257" y2="41" class="line"/><line x1="367" y1="41" x2="367" y2="27" class="line"/><path d="M257 41 Q257 51 267 51" class="line"/><path d="M357 51 Q367 51 367 41" class="line"/><line x1="267" y1="51" x2="277" y2="51" class="line"/><line x1="277" y1="51" x2="357" y2="51" class="line"/><line x1="380" y1="17" x2="377" y2="17" class="line"/><polygon points="387 17 395 13 395 21"/><polygon points="387 17 379 13 379 21"/></svg>

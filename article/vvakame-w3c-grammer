@@ -1,0 +1,88 @@
+/* converted on Sun Dec 1, 2013, 22:12 (UTC+09) by pegjs-to-w3c v0.33.722 which is Copyright (c) 2011-2013 by Gunther Rademacher <grd@gmx.net> */
+
+Start    ::= _ Chapters? _
+Chapters ::= Chapter Chapters?
+Chapter  ::= Headline Contents?
+Headline ::= '='+ BracketArg? BraceArg? Space* SinglelineContent Newline*
+Contents ::= Content Contents? Newline?
+Content  ::= SinglelineComment
+           | BlockElement
+           | Ulist
+           | Olist
+           | Dlist
+           | Paragraph
+Paragraph
+         ::= ParagraphSubs _
+ParagraphSubs
+         ::= ParagraphSub ParagraphSubs?
+ParagraphSub
+         ::= InlineElement
+           | ContentText
+BlockElement
+         ::= '//' AZ+ BracketArg* '{' Newline BlockElementContents? '//}' _
+           | '//' AZ+ BracketArg* _
+BlockElementContents
+         ::= BlockElementContent BlockElementContents? _
+BlockElementContent
+         ::= SinglelineComment
+           | BlockElement
+           | Ulist
+           | Olist
+           | Dlist
+           | BlockElementParagraph
+BlockElementParagraph
+         ::= BlockElementParagraphSubs _
+BlockElementParagraphSubs
+         ::= BlockElementParagraphSub BlockElementParagraphSubs?
+BlockElementParagraphSub
+         ::= InlineElement
+           | BlockElementContentText
+InlineElementContents
+         ::= InlineElementContent InlineElementContents?
+InlineElementContent
+         ::= InlineElement
+           | InlineElementContentText
+SinglelineContent
+         ::= ContentInlines ( Newline | EOF )
+ContentInlines
+         ::= ContentInline ContentInlines?
+ContentInline
+         ::= InlineElement
+           | ContentInlineText
+Ulist    ::= ( UlistElement | SinglelineComment ) Ulist?
+UlistElement
+         ::= ' '+ '*'+ Space* SinglelineContent
+Olist    ::= ( OlistElement | SinglelineComment ) Olist?
+OlistElement
+         ::= ' '+ Digits '.' Space* SinglelineContent
+Dlist    ::= ( DlistElement | SinglelineComment ) Dlist?
+DlistElement
+         ::= ' '* ':' ' ' Space* SinglelineContent DlistElementContent _
+Digits   ::= Digit+
+EOF      ::=
+
+<?TOKENS?>
+
+ContentText
+         ::= [^.r.n]+ Newline? ContentText?
+InlineElement
+         ::= '@<' [^>#xD#xA]+ '>' '{' InlineElementContents? '}'
+BracketArg
+         ::= '[' [^#xD#xA#x5D]* ']'
+BraceArg ::= '{' [^#xD#xA}]* '}'
+BlockElementContentText
+         ::= ( [^#xD#xA]+ Newline? )+
+InlineElementContentText
+         ::= [^#xD#xA}]+
+ContentInlineText
+         ::= [^#xD#xA]+
+DlistElementContent
+         ::= [ #x9]+ SinglelineContent
+SinglelineComment
+         ::= '#@' [^#xD#xA]* Newline? _
+Digit    ::= [0-9]
+AZ       ::= [a-z]
+Newline  ::= #xD #xA
+           | #xA
+_        ::= [ #x9#xD#xA]*
+Space    ::= [ #x3000#x9]
