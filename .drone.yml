@@ -1,0 +1,10 @@
+image: vvakame/review
+script:
+  - ruby --version
+  - gem list review
+  - cd article
+  - rake clean pdf
+notify:
+  email:
+    recipients:
+      - vvakame@gmail.com
