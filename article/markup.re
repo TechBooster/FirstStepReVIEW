@@ -437,25 +437,6 @@ ReVIEWのリストには、連番付きと連番無しの２種類、行番号�
 
 行番号をつける場合は、通常、本文からの参照・説明を意図していることが多く、また、後述する不具合があるので、利用頻度がきわめて低い構文です。
 
-=== emlistnumの不具合
-
-ReVIEWのバージョンで1.1.0では、@<code>{review-epubmaker}でHTMLやEPUBを出力するときに、
-emlistnum構文の１番目の括弧[]に@<kw>{identifier,識別子}を設定していないとエラーが発生します。
-
-その場合、@<list>{elistnum_sample_with_no_seq3}のようにする事で、正常にEPUBが出力できます。
-
-//list[elistnum_sample_with_no_seq3][identifierを設定した行番号有り連番なしリスト]{
- //emlistnum[identifier][行番号有り連番なしリストのキャプション（省略可能）]{
- ...
- ソースコード等
- ...
- //}
-//}
-
-しかしながら、identifierを設定すると、@<code>{review-pdfmaker}でPDFを出力するときにエラーが発生し、PDFが正常に出力できなくなります。
-
-この不具合はGitHubのmasterでは修正されており、次期リリースのReVIEWに含まれる予定です。
-
 == コマンドライン
 
 コマンドラインの入出力などを示す構文です。
