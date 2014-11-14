@@ -334,7 +334,7 @@ review-sample.pdf
 
 自分の原稿が取り入れられていません(´・ω・`)
 
-=== CHAPSを導入する
+=== catalog.ymlを導入する
 
 ここまでで行なってきたことを振り返ってみます。
 
@@ -348,14 +348,15 @@ review-sample.pdf
 この問題は、@<code>{new-project.re}というファイルが、本を構成するファイルとして認識されていないために起こります。
 例えば仮に@<code>{second-chapter.re}というファイルで「第二章」を作った場合には、どちらが先なのかも指定しなければなりません。
 
-そういった指定を行うため、@<code>{CHAPS}というファイルを新たに作成します。
+そういった指定を行うため、@<code>{catalog.yml}というファイルを新たに作成します。
 そして、そのファイルに、本に収録するReVIEW形式のファイルを記述します。
 
 //cmd{
 > ls
-CHAPS  first-chapter.re  review-sample.pdf  sample.yaml
-> cat CHAPS
-first-chapter.re
+catalog.yml  first-chapter.re  review-sample.pdf  sample.yaml
+> cat catalog.yml
+CHAPS:
+  - first-chapter.re
 > rm review-sample.pdf
 > review-pdfmaker sample.yaml
 （出力省略）
@@ -369,15 +370,16 @@ first-chapter.re
 現時点ではタイトルがお好みのものではないかと思います。
 @<code>{sample.yaml}を編集して、自著の書籍名に変えるといった作業を行います。
 
-=== PREDEF、POSTDEF、PARTの解説
+=== catalog.ymlにおけるPREDEF、POSTDEF、APPENDIX、PARTの解説
 
-@<code>{CHAPS}は本文の章構成を決めるファイルです。
-@<code>{CHAPS}を含め、書籍を構成するファイルをReVIEWでは「カタログファイル」と呼びます。
+@<code>{catalog.yml}は本文の章構成を決めるファイルで、ReVIEWでは「カタログファイル」と呼びます。
+また、@<code>{catalog.yml}には、@<code>{CHAPS}を含め、書籍を構成するファイルをそれぞれ記述します。
 
-本章で詳しくは紹介しませんが、カタログファイルに属するものが他にもあるのでここで紹介します。
+本章で詳しくは紹介しませんが、カタログファイルに記述するものが他にもあるのでここで紹介します。
 
  * @<code>{PREDEF}は前付けに用いるReVIEWファイルを列挙します
  * @<code>{POSTDEF}は後付けに用いるReVIEWファイルを列挙します
+ * @<code>{APPENDIX}は付録に用いるReVIEWファイルを列挙します
  * @<code>{PART}は書籍に「部」を導入するときに使われます。
 
 しっかりした書籍を作る際にはこれらを駆使することになりますが、本章を読まれている時点では「そういうものも存在する」くらいの理解で良いと思います。
