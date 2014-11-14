@@ -481,7 +481,7 @@ emlistnum構文の１番目の括弧[]に@<kw>{identifier,識別子}を設定し
 $ git add .gitignore
 $ git commit -m "first commit"
 $ git push
- 
+
 Counting objects: 10, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (6/6), done.
@@ -581,23 +581,17 @@ URLに加えて、コンマで区切ってリンクを設定する文字列を�
 
 === 画像ファイル
 
-本文に差し込む画像ファイルは、CHAPSがあるディレクトリに@<code>{images}ディレクトリを作成し、その下に配置します。
+本文に差し込む画像ファイルは、CHAPSがあるディレクトリに@<code>{images}ディレクトリを作成します。
+それぞれの画像ファイルは、その画像を差し込む章の名前のディレクトリの下に配置します。
+
+例えば、@<tt>{markup.re}の章に表示する画像ファイル@<tt>{enlightened.png}のばあい、@<tt>{images/markup/enlightened.png}となります。
+このことから解るとおり、ReVIEWでは、異なる章の画像ファイルを直接参照することはできません。
+画像ファイルは、章ごとに配置する必要があります。
+
 画像ファイルとして利用できるフォーマットは、ReVIEWで出力する形式に依存しますが、PNG、JPEG、@<kw>{SVG,Scalable Vector Graphics}など、基本的なフォーマットには対応しています。
-
-画像ファイルの名前は、@<list>{image_sample}の命名規則に則る必要があります。
-
-//list[image_sample][画像ファイルの命名規則]{
-[@<b>{参照元のファイル名}]-@<b>{識別子}.[@<b>{フォーマット}]
-//}
 
 //image[enlightened][enlightened.png]{
 //}
-
-例えば、@<img>{enlightened}の画像を差し込む場合、ReVIEW記法で書かれた文書のファイル名がchapter01.reのとき、ファイル名は@<tt>{chapter01-enlightened.png}になります。
-
-このことから解るとおり、ReVIEWでは、異なる章の画像ファイルを直接参照することはできません。
-
-画像ファイルは、章ごとに配置する必要があります。
 
 === 連番付きの図
 
