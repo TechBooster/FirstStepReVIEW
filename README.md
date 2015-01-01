@@ -61,7 +61,7 @@ pdf を生成する場合は TeX のインストールが必須です。
 * rake, gem, ptex-bin, texlive-fonts-recommended パッケージを入れてください
 * sudo gem install review してください
 * ほのぼの rake
-** `rake -T` で利用可能なビルドが確認できるよ
+  * `rake -T` で利用可能なビルドが確認できるよ
 
 ## Mac の場合
 
