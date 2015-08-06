@@ -493,9 +493,9 @@ PDFで出力する本文やリスト、図表に適用するスタイルを個�
 例えば、ReVIEWファイル@<list>{change_pagesize2}は、LaTeXソースファイルでは、@<list>{reviewlist_latex}になります。
 
 //list[change_pagesize2][ReVIEW記法]{
- \\list[change_pagesize][ページサイズをa4jに指定している]{
+ //list[change_pagesize][ページサイズをa4jに指定している]{
  texdocumentclass: ["jsbook", "a4j"]
- \\}
+ //}
 //}
 
 //list[reviewlist_latex][LaTeXソースファイル]{
